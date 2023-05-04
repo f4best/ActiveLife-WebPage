@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ActiveLife, sklep sportowy</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../ico1.png">
+    <script src="../script.js"></script>
+</head>
+<body>
+    <!--nagłówek strony-->
+    <nav class="content">
+        <div class="but_log">
+            <div id="mode"><button onclick="changeMode()"></button></div>
+            <div class="logo">
+            <a href="https://google.com"><img src="../Image1_1.png" alt="ActiveLife" title="Nasze logo"></a>
+            </div>
+        </div>
+        <ul class="menu">
+            <li><a href="../main_page.html"><h3>Strona główna</h3></a></li>
+            <li><a href="/gym/gym.html"><h3>Siłownia</h3></a></li>
+            <li><a href="/dance/dance.html"><h3>Taniec</h3></a></li>
+            <li><a href="/football/football.html"><h3>Piłka nożna</h3></a></li>
+            <li><a href="/volleyball/volleyball.html"><h3>Siatkówka</h3></a></li>
+            <li class="cart">
+                <img src="../cart.png" alt="Koszyk">
+                <h4 id="counter">0</h4>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <!--opis podstrony-->
+    <div class="title"><p><strong id="title">Artykuły do tańca</strong></p></div>
+
+    <!--sekcja z produktami-->
+    <div class="list">
+        <!-- produkt1 -->
+        <div class="product">
+            <div class="prod_img"><img src="baletki.webp" alt="Baletki"></div>
+            <hr>
+            <div class="shopping">
+                <div class="name">Baletki</div>
+                <div class="price_btn">
+                    <div class="price">119,99zł</div>
+                    <div class="buy"><button onclick="addElement()">Dodaj</button></div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- produkt2 -->
+        <div class="product">
+            <div class="prod_img"><img src="chustki.jpg" alt="Chustki"></div>
+            <hr>
+            <div class="shopping">
+                <div class="name">Chustki</div>
+                <div class="price_btn">
+                    <div class="price">59,99zł</div>
+                    <div class="buy"><button onclick="addElement()">Dodaj</button></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- produkt3 -->
+        <div class="product">
+            <div class="prod_img"><img src="rura.jpg" alt="Rura"></div>
+            <hr>
+            <div class="shopping">
+                <div class="name">Rura do tańca</div>
+                <div class="price_btn">
+                    <div class="price">199,99zł</div>
+                    <div class="buy"><button onclick="addElement()">Dodaj</button></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- produkt4 -->
+        <div class="product">
+            <div class="prod_img"><img src="wstazka.jfif" alt="Wstążka"></div>
+            <hr>
+            <div class="shopping">
+                <div class="name">Wstążka</div>
+                <div class="price_btn">
+                    <div class="price">79,99zł</div>
+                    <div class="buy"><button onclick="addElement()">Dodaj</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
